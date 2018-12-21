@@ -1,12 +1,12 @@
 {
-  "name": "http-proxy",
-  "description": "Proxy and log RESTful HTTP traffic",
+  "name": "rest-proxy",
+  "description": "Quick and dirty HTTP proxy for logging what goes in and out of a RESTful service.  SSL was way out of scope. :)",
+  "license": "MIT",
   "version": "0.0.1",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "debug": "^4.1.0",
     "dotenv": "^6.2.0",
     "http-proxy": "^1.17.0"
   }
